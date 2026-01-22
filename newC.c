@@ -1,4 +1,14 @@
 #include <stdio.h>
+/*
+ * Author: Jae Sung Hwang
+ * Purpose: Familiarizing using the BSB server.
+ * */
+
+//Method Name:fib
+//Parameter: int n
+//returns: an int result
+//Explanation: a fibonnaci sequence calculator where the input "n"th digit of the fibonacci sequence will be outputted
+//Uses recursion.
 int fib(int n);
 
 int main(){
