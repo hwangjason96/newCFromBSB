@@ -10,14 +10,23 @@ Using gdb debugger:
 "gdb ./"program-executable-name" "
 
 Will automatically compile the program and run the debugger, going into the gdb interface.
+
 Commands:
+
 b : sets a breakpoint
+
 r : runs a program
+
 n : execute the next line (from breakpoint) This steps OVER
+
 s : execute the next line (from breakpoint) This steps IN
+
 c : Resume the program execution until the next breakpoint
+
 print : display a variable
+
 list : display source code around the current line
+
 quit : get out
 
 above commands must follow a name of the program or the line number.
